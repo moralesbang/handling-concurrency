@@ -30,7 +30,7 @@ int main() {
     auto duration = duration_cast<microseconds>(stop_time - start_time);
 
     cout << "Current count: " << current_count << endl;
-    cout << "Elapsed time: " << duration.count() << endl;
+    cout << "Elapsed time: " << duration.count() << " µs" << endl;
     
     return 0;
 }
