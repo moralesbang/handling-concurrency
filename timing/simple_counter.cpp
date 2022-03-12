@@ -40,7 +40,7 @@ int main() {
 
     cout << "Odd Sum: " << odd_sum << endl;
     cout << "Even Sum: " << even_sum << endl;
-    cout << "\n Elapsed Time: " << duration.count() /  1000000 << " s" << endl;
+    cout << "\nElapsed Time: " << duration.count() /  1000000 << " s" << endl;
 
     return 0;
 }
